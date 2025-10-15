@@ -5,6 +5,5 @@ def greet(name):
 
 demo = gr.Interface(fn=greet, inputs="textbox", outputs="textbox")
 
-if __name__ == "__main__":
-    
+if __name__ == "__main__": 
     demo.launch()
